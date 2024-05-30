@@ -1,9 +1,9 @@
 
 region = "us-east-1"
 
-###############################################################################
+################################################################################
 # Module - Cognito User Pool
-###############################################################################
+################################################################################
 db_config_user_pool = {
    aeos-backoffice-dev = {
       name = "aeos-backoffice-dev",                     
@@ -43,7 +43,7 @@ db_config_identity_pools = {
       identity_pool_name = "aeos-developer-portal-dev",
   }  
 
-  aeos-plataform-dev = {
-      identity_pool_name = "aeos-plataform-dev",
+  n5x-plataform-dev = {
+      identity_pool_name = "v-plataform-dev",
   }
 }
